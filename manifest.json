@@ -1,0 +1,24 @@
+{
+   "manifest_version":2,
+   "version":"1.0",
+   "name":"InstaGrab",
+   "background":{
+      "scripts":[
+         "instagrab-ext-chrome-background.js"
+      ],
+      "persistent":false
+   },
+   "icons": { "128": "icon128.png" },
+   "page_action":{
+      "default_icon":{
+
+      },
+      "default_title":"InstaGrab"
+   },
+   "permissions":[
+       "tabs",
+       "downloads",
+      "https://instagram.com/*",
+      "http://instagram.com/*"
+   ]
+}
